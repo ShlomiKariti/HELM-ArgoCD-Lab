@@ -2,8 +2,8 @@ ReplicaNumber: 3
 
 containers:
   containerPort: 8080
-  image: 'quay.io/skariti/lab:v4'
-  tag: 'base'
+  image: 'quay.io/skariti/lab'
+  tag: 'v4'
 
 service:
   servicePort: 8080
